@@ -24,43 +24,43 @@
 		<input type="hidden" name="page" value="admin/GestioneCatalogo.jsp"><br><br>
 		<div class="tableRow">
 			<p>Nome:</p>
-			<p><input type="text" name="nome" value="" required></p>
+			<p><input type="text" name="nome" value="" required pattern="[A-Za-z0-9]+"></p>
 		</div>
 		<div class="tableRow">
 			<p>Descrizione:</p>
-			<p><input type="text" name="descrizione" value="" required></p>
+			<p><input type="text" name="descrizione" value="" required pattern="[A-Za-z0-9]+"></p>
 		</div>
 		<div class="tableRow">
 			<p>Iva:</p>
-			<p><input type="text" name="iva" value="" required></p>
+			<p><input type="text" name="iva" value="" required pattern="[A-Za-z0-9]+"></p>
 		</div>
 		<div class="tableRow">
 			<p>Prezzo:</p>
-			<p><input type="text" name="prezzo" value="" required></p>
+			<p><input type="text" name="prezzo" value="" required pattern="[A-Za-z0-9]+"></p>
 		</div>		
 		<div class="tableRow">
 			<p>Data:</p>
-			<p><input type="text" name="dataUscita" value="" required></p>
+			<p><input type="text" name="dataUscita" value="" required pattern="[A-Za-z0-9]+"></p>
 		</div>
 		<div class="tableRow">
 			<p>Quantità:</p>
-			<p><input type="number" name="quantità" value="" required></p>
+			<p><input type="number" name="quantità" value="" required pattern="[A-Za-z0-9]+"></p>
 		</div>
 		<div class="tableRow">
 			<p>Immagine:</p>
-			<p><input type="text" name="img" value="" required></p>
+			<p><input type="text" name="img" value="" required pattern="[A-Za-z0-9]+"></p>
 		</div>
 		<div class="tableRow">
 			<p>Piattaforma:</p>
-			<p><input type="text" name="piattaforma" value="" required></p>
+			<p><input type="text" name="piattaforma" value="" required pattern="[A-Za-z0-9]+"></p>
 		</div>
 		<div class="tableRow">
 			<p>Genere:</p>
-			<p><input type="text" name="genere" value="" required></p>
+			<p><input type="text" name="genere" value="" required pattern="[A-Za-z0-9]+"></p>
 		</div>
 		<div class="tableRow">	
 			<p>Descrizione dettagliata:</p>
-			<p><input type="text" name="descDett" value=""></p>
+			<p><input type="text" name="descDett" value="" required  pattern="[A-Za-z0-9]+"></p>
 		</div>
 		<div class="tableRow">
 			<p></p>
